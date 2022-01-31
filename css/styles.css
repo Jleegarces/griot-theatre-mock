@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  
+}
+
+body {
+display: flex;
+flex-direction: column;
+
+font-family: 'Kanit', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+
+
+
+
+}
+
+h2 {
+  color: white;
+  text-align: start;
+  font-size: 2em;
+  
+  font-weight: bolder;
+}
+
+nav {
+  background: black;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  
+  
+}
+
+ul li a {
+  
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  
+  font-size: 1.2em;
+  
+  
+  
+}
+
+a:hover {
+  color: red;
+}
+
+li {
+  
+  display: inline;
+  font-weight: bolder;
+}
+
+#list {
+  word-spacing: 40px;
+}
+
+#actors {
+  word-spacing: 2px;
+}
+
+.featured {
+
+
+    display: block;
+    background-image: url("../images/theater-image-background\ \(1\).png");
+    position: relative;
+    text-align: center;
+    height: 1000px;
+    
+    
+  
+}
+
+.featured h1 {
+  color: white;
+  padding-top: 450px;
+  font-size: 5rem;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  
+  
+  height: 800px;
+  padding: 100px 500px;
+}
+
+.flexbox-container #header-flex {
+  height: 15px;
+  border: 1px solid lightgray;
+  background: rgb(236, 235, 235);
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.info  {
+  display: flex;
+  
+  
+  margin: 20px;
+  height: 200px;
+  width: 800px;
+  
+
+}
+
+.info-content {
+  padding: 20px;
+}
+
+
+
+
+
+.info img {
+  
+  height: 150px;
+  width: 200px;
+}
+
+.button{
+  display: flex;
+  align-self: center;
+  margin-left: 200px;
+  
+  
+  
+}
+
+.button button {
+  background: goldenrod;
+  color: white;
+  height:40px;
+  width: 80px;
+  cursor: pointer;
+  border: .5px lightgray;
+  
+}
+
+button:hover {
+  background: lightyellow;
+  color: goldenrod;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background: black;
+  height: 300px;
+  width: 100vw;
+  padding-left: 100px;
+  
+
+}
+
+footer .footer-1 {
+  padding: 50px;
+  width: 300px;
+  margin-right: 50px;
+  
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 300px;
+  
+}
+footer #last-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.footer-content p {
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
